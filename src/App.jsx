@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Login from "./pages/Login";
+import Login from "./components/Login.tsx";
+import Register from "./components/Register.tsx";
 import Admin from "./pages/Admin";
 const App = () => {
   return (
@@ -14,11 +15,12 @@ const App = () => {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
         <Route path="/Admin" element={<Admin />} />
       </Routes>
     </div>
