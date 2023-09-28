@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
